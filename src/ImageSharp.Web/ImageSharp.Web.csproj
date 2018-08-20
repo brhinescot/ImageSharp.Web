@@ -54,6 +54,11 @@
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.SpaServices.Extensions">
+      <HintPath>C:\Users\Brian\.nuget\packages\microsoft.aspnetcore.spaservices.extensions\2.1.1\lib\netstandard2.0\Microsoft.AspNetCore.SpaServices.Extensions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
   <PropertyGroup>
     <CodeAnalysisRuleSet>..\..\ImageSharp.ruleset</CodeAnalysisRuleSet>
     <RootNamespace>SixLabors.ImageSharp.Web</RootNamespace>
